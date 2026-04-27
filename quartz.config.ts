@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "ja-JP",
     baseUrl: "iruma-voice.github.io/open-iruma",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "frontmatter",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -58,7 +58,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter","filesystem"],
+        priority: ["frontmatter", "git", "filesystem"]],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
