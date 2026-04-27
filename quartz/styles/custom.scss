@@ -1,3 +1,26 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* --- スマホ向けの特別調整 --- */
+@media screen and (max-width: 600px) {
+  // 本文の行間と文字サイズを少し大きくして読みやすくする
+  article {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+  
+  // AIの3行まとめ（コールアウト）をスマホ画面いっぱいに広げる
+  .callout {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    border-radius: 0;
+    padding: 1rem;
+  }
+}
+
+/* --- 全体的な見やすさ調整 --- */
+// 見出しの上の余白を広げて、情報の区切りを明確にする
+h2, h3 {
+  margin-top: 2.5rem;
+}
