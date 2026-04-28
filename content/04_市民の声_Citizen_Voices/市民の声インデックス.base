@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.inFolder("04_市民の声_Citizen_Voices")
+    - file.ext == "md"
+properties:
+  status:
+    displayName: 分析ステータス
+views:
+  - type: list
+    name: 未分析（投稿済み）
+    filters:
+      and:
+        - status != "分析済み"
+    order:
+      - file.name
+      - file.ctime
+  - type: table
+    name: 全件一覧
+    order:
+      - file.name
+      - status
+      - file.ctime

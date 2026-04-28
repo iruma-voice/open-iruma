@@ -1,0 +1,31 @@
+filters:
+  and:
+    - file.hasTag("type/議員")
+properties:
+  faction:
+    displayName: 所属会派
+  seat_number:
+    displayName: 議席番号
+  committees:
+    displayName: 所属委員会
+views:
+  - type: cards
+    name: 議員一覧 (会派別)
+    groupBy:
+      property: faction
+      direction: ASC
+    order:
+      - file.name
+      - faction
+      - seat_number
+      - committees
+  - type: table
+    name: 議席番号順
+    groupBy:
+      property: seat_number
+      direction: ASC
+    order:
+      - seat_number
+      - file.name
+      - faction
+      - committees

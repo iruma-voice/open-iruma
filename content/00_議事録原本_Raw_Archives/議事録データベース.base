@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.hasTag("type/議事録")
+formulas:
+  meeting_year: if(date, date(date).year, "")
+properties:
+  session_type:
+    displayName: 会議種別
+  date:
+    displayName: 開催日
+  speaker:
+    displayName: 質問者
+views:
+  - type: table
+    name: 一般質問一覧
+    filters:
+      and:
+        - file.hasTag("type/議事録/一般質問")
+    groupBy:
+      property: formula.meeting_year
+      direction: DESC
+    order:
+      - date
+      - file.name
+      - speaker
+  - type: table
+    name: 本会議一覧
+    filters:
+      and:
+        - file.hasTag("type/議事録/本会議")
+    groupBy:
+      property: formula.meeting_year
+      direction: DESC
+    order:
+      - date
+      - file.name
+      - session_type
+  - type: table
+    name: 委員会一覧
+    filters:
+      and:
+        - file.hasTag("type/議事録/委員会")
+    groupBy:
+      property: formula.meeting_year
+      direction: DESC
+    order:
+      - date
+      - file.name
