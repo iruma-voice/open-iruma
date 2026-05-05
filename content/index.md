@@ -83,3 +83,11 @@ title: いるまオープン議会
 > - 当サイトは、入間市の公式ウェブサイトではありません。主権者である市民の有志によるプロジェクトです。
 > - 記事の要約や構成には、最新の生成AIを活用しています。情報の正確性には万全を期していますが、最終的な事実確認は必ず市の公式議事録や一次資料（当サイト内アーカイブを含む）をご参照ください。
 > - すべての記事には出典となる議事録へのリンクを掲載しています。「本当にそう言ったの？」と思ったら、いつでも原文を確認できます。
+
+
+
+
+### 📮 
+<iframe src="https://tally.so/embed/5BEQPP?alignLeft=1&transparentBackground=1&dynamicHeight=1&page_title=【ここにページ名を手動で入れる】" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="フィードバック"></iframe>
+<iframe data-tally-src="https://tally.so/embed/5BEQPP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="757" frameborder="0" marginheight="0" marginwidth="0" title="この記事についてのフィードバック（市民の声）"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
