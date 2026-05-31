@@ -50,6 +50,14 @@ title: いるまオープン議会
 
 ---
 
+### 💧 インフラ・生活
+
+> [!important] 水道料金改定
+> 27年ぶりとなる上水道料金（平均35%増）と下水道使用料（平均33%増）の改定（値上げ）が2026年3月に可決。老朽化したインフラの耐震化・更新費用と、埼玉県水道用水（県水）値上げへの対応。少量利用者に配慮した新区分が設けられる一方で、一般家庭や事業者の負担増が焦点。
+> 👉 [詳しく読む](02_地域課題と議論_Issues_Debates/水道料金改定/水道料金改定.md)
+
+---
+
 ### 💰 財政の逼迫
 
 > [!warning] 財政の逼迫 — 大型事業集中による危機
@@ -109,4 +117,4 @@ title: いるまオープン議会
 <iframe data-tally-src="https://tally.so/embed/5BEQPP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="757" frameborder="0" marginheight="0" marginwidth="0" title="この記事についてのフィードバック（市民の声）"></iframe>
 <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 
-2026/05/06_更新
+2026/05/31_更新
