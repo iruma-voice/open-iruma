@@ -8,8 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "いるまオープン議会": "https://iruma-voice.github.io/open-iruma/",
     },
   }),
 }
@@ -41,7 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    // Component.Graph(), // 市民向けUI最適化のため非表示化
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
