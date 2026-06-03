@@ -8,6 +8,8 @@ properties:
     displayName: 議席番号
   committees:
     displayName: 所属委員会
+  一般質問回数:
+    displayName: 一般質問回数
 views:
   - type: cards
     name: 議員一覧 (会派別)
@@ -17,8 +19,8 @@ views:
     order:
       - file.name
       - faction
-      - seat_number
       - committees
+      - 一般質問回数
   - type: table
     name: 議席番号順
     groupBy:
@@ -29,3 +31,4 @@ views:
       - file.name
       - faction
       - committees
+      - 一般質問回数
